@@ -1,0 +1,76 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+    font-family: "Courier New", Courier, monospace;
+}
+.main_header {
+    width: 0 auto;
+    height: auto;
+    padding: 18% 10%;
+    margin: 32px 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    box-shadow: 0 0 12px #262626;
+}
+.blip {
+    width: 8px;
+    height: 20px;
+    margin: 20px;
+    background-color: #00ff00;
+    align-self: flex-start;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0% {opacity: 1;}
+
+    50% {opacity: 0;}
+
+    100% {opacity: 1}
+}
+.main_header h1 {
+    color: #00ff00;
+    height: 5px;
+}
+a {
+    text-decoration: none;
+}
+a .action_button {
+    background-color: #00ff00;
+    color: #000;
+    margin: 40px 0;
+    width: 100px;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+}
+.about_me .about_me_header {
+    color: #00ff00;
+    width: 0 auto;
+    height: 30%;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 15px;
+}
+.about_me .about_me_intro {
+    color: #00ff00;
+    text-align: center;
+    width: 0 auto;
+
+}
+.main_header_two {
+    width: 0 auto;
+    height: 70vh;
+    margin: 32px 180px;
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-style: solid;
+    box-shadow: 0 0 12px #262626;
+}
